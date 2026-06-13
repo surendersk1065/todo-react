@@ -27,7 +27,7 @@ const Signup = (props) => {
                 onChange={(evt) => setPass(evt.target.value)}
                 />
                 <input type="password" placeholder='Confirm Password'className='border rounded-md p-1 bg-transparent md:w-52' />
-                <button className='bg-[#B272DA] w-24 p-1 rounded-md' onClick={handleCLick}>Login</button>
+                <button className='bg-[#B272DA] w-24 p-1 rounded-md' onClick={handleCLick}>SignUp</button>
                 <p className='text-sm md:text-lg mt-5'>Already have an account? <Link to={"/"} className='underline'>Login</Link></p>
                 <p>{now ?'You can go to login page and Access using the credentials': ''}</p>
             </div>
